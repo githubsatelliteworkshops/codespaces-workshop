@@ -38,7 +38,7 @@ GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-
 - Copy the folder from ```<repo>/containers/dotnet-mssql/.devcontainer``` to your project root folder
 - Open command palette in the browser (right click or cmd/ctrl+SHIFT+P)
 - Run the command ```Codespaces: ReBuild Container```
-  This step will rebuild the codespace according to our specification in the devcontainer.json
+  <br>This step will rebuild the codespace according to our specification in the devcontainer.json
 - Now check the VS Code extensions, you should have SQL Server extension with the connection and an empty database ```ApplicationDB```
 
 To read more details on dev container [here](https://code.visualstudio.com/docs/remote/create-dev-container)
