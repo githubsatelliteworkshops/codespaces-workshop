@@ -2,9 +2,8 @@
 1. Fork this repository into your user account (using Fork option on top right of the screen). This repository will get forked as <username>/codespaces-workshop.
 This repository contains a sample REST API implemented via dotnet core
 
-2. Then click on the Code drop down, you will see the option "Open with codespaces"
-
-![Open With Codespaces](./images/opencodespace.png)It will take few minutes to create a workspace.
+2. Then click on the Code drop down, you will see the option "Open with codespaces"<br>
+![Open With Codespaces](./images/opencodespace.png)<br>It will take few minutes to create a workspace.
 
 3. You will see a VS-Code editor with your project.<br>You now have a working dev environment in the browser to start development 🎉
 
