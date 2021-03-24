@@ -1,24 +1,20 @@
 ## Basic Codespace creation
-1. Fork this repository into your user account (using Fork option on top right of the screen). This repository will get forked as <username>/codespaces-workshop
+1. Fork this repository into your user account (using Fork option on top right of the screen). This repository will get forked as <username>/codespaces-workshop.
 This repository contains a sample REST API implemented via dotnet core
 
 2. Then click on the Code drop down, you will see the option "Open with codespaces"
 
-![Open With Codespaces](./images/opencodespace.png)
+![Open With Codespaces](./images/opencodespace.png)It will take few minutes to create a workspace.
 
-It will take few minutes to create a workspace.
+3. You will see a VS-Code editor with your project.<br>You now have a working dev environment in the browser to start development 🎉
 
-3. You will see a VS-Code editor with your project
-
-You now have a working dev environment in the browser to start development 🎉
-
-1. Open terminal from the editor's bottom pane
+1. Open the terminal from the editor's bottom pane
 2. Execute ```dotnet run src/weatherforecast.api```
 3. Your dotnet REST service should now be running
 ![terminal](./images/runproject.png)
 
 4. Now click on the ```http://localhost:5000``` link in the terminal output and see the magic of port forwarding, allowing you to access your codespace dev box.
-However, you should be seeing nothing in the page as we don't have any index yet. Just append the URL with the ```/weatherforecast```
+<br>However, you should be seeing nothing in the page as we don't have any index page yet. Just append the URL with the ```/weatherforecast```
 
 5. You would see the REST API output in the browser
 
