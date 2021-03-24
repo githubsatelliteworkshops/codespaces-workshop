@@ -20,6 +20,6 @@
 - [Docker](https://docs.docker.com/get-started/02_our_app/)
 - [Codespace](https://docs.github.com/en/github/developing-online-with-codespaces/about-codespaces)
 - [Codespace Troubleshooting](https://docs.github.com/en/github/developing-online-with-codespaces/troubleshooting-your-codespace)
-- [Codespace Feedback](https://github.com/github/feedback/discussions/categories/codespaces-feedback)
+- [Codespaces Feedback & questions](https://github.com/github/feedback/discussions/categories/codespaces-feedback)
 
 ## 👨🏻‍💻 Workshop Details [here](./workshop/workshop-steps.md)
