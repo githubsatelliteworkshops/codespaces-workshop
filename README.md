@@ -11,7 +11,8 @@
 
 ## :mega: Prerequisites
 - A [GitHub.com account](https://github.com/join) with a [verified e-mail address](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address)
-- Basic understanding of DevOps processes
+- Codespace is in beta, Please [join the beta](https://docs.github.com/en/github/developing-online-with-codespaces/about-codespaces#joining-the-beta)
+- Nice to have: Basic understanding of DevOps processes
 - Nice to have: Basic understanding of containers
 
 ## :books: Resources
