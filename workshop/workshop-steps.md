@@ -28,14 +28,13 @@ you would see nothing in the page as we don't have any index. Just append the UR
 
 **Merge the changes**
 
-## Creating devcontainer folder for customization
+## Customizing codespaces using devcontainer.json
 
 #### Using custom devcontainer.json
 GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project#creating-a-custom-codespace-configuration)
 
 #### Using prebuilt configurations
 GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project#using-a-pre-built-container-configuration)
-
 
 
 - Go to [here](https://github.com/microsoft/vscode-dev-containers)
@@ -49,8 +48,10 @@ GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-
 To read more details on dev container [here](https://code.visualstudio.com/docs/remote/create-dev-container)
 
 **Personalizing for your account**
-Codespaces uses your ```dotfiles``` repository on GitHub to personalize every new codespace that you create.
-More details [here](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account)
+- Codespaces uses your ```dotfiles``` repository on GitHub to personalize every new codespace that you create.
+  More details [here](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account)
+
+- VSCode Settings Sync
 
 **Security**
 GitHub Documentation for codespaces [security](https://docs.github.com/en/github/developing-online-with-codespaces/managing-access-and-security-for-codespaces)
