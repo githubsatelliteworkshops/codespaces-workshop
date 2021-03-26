@@ -14,6 +14,7 @@
 - Codespace is in beta, Please [join the beta](https://docs.github.com/en/github/developing-online-with-codespaces/about-codespaces#joining-the-beta)
 - Nice to have: Basic understanding of DevOps processes
 - Nice to have: Basic understanding of containers
+- Recommend to use chromium based browsers
 
 ## :books: Resources
 - [Containers](https://www.docker.com/resources/what-container)

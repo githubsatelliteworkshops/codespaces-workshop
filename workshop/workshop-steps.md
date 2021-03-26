@@ -8,7 +8,7 @@ This repository contains a sample REST API implemented via dotnet core
 3. You will see a VS-Code editor with your project.<br>You now have a working dev environment in the browser to start development 🎉
 
 1. Open the terminal from the editor's bottom pane
-2. Execute ```dotnet run src/weatherforecast.api```
+2. Execute ```dotnet run --project src/weatherforecast.api```
 3. Your dotnet REST service should now be running
 ![terminal](./images/runproject.png)
 
