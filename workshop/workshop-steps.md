@@ -31,7 +31,7 @@ GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-
 #### Using prebuilt configurations
 GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project#using-a-pre-built-container-configuration)
 
-
+**Option1** 
 
 - Go [here](https://github.com/microsoft/vscode-dev-containers)
 - Download the repository
@@ -41,16 +41,28 @@ GitHub Documentation [Link](https://docs.github.com/en/github/developing-online-
   <br>This step will rebuild the codespace according to our specification in the devcontainer.json
 - Now check the VS Code extensions, you should have SQL Server extension with the connection and an empty database ```ApplicationDB```
 
-To read more details on dev container [here](https://code.visualstudio.com/docs/remote/create-dev-container)
+**Option2**
+(**Recommonded**) : You can add the devcontainer configuration using a VSCode command
+- Open command pallette 
+- Run the Command ``` Codespaces: Add Development Container Configuration Files ```
+- Type in the ```MS SQL``` in the search box
+- Click on ```Show All Definition```
+- Select C# & MS SQL and you are done !
+- You will see bunch of files created in your repo root under ```.devcontainer``` folder
+
+
+To read more details on available dev container [here](https://code.visualstudio.com/docs/remote/create-dev-container)
 
 **Personalizing for your account**
 - Codespaces uses your ```dotfiles``` repository on GitHub to personalize every new codespace that you create
   More details [here](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account)
 
-- VSCode Settings Sync
+- VSCode Settings Sync. Read more [here](https://code.visualstudio.com/docs/editor/settings-sync) for enabling the settings sync.
 
 **Security**
 GitHub Documentation for codespaces [security](https://docs.github.com/en/github/developing-online-with-codespaces/managing-access-and-security-for-codespaces)
 
 **Secrets**
 GitHub documentation for managing [encrypted secrets for codespaces](https://docs.github.com/en/github/developing-online-with-codespaces/managing-encrypted-secrets-for-codespaces)
+
+All our codespaces secrets will be loaded as the Environment variables in the codespace environment.
